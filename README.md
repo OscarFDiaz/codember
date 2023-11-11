@@ -18,33 +18,46 @@
 ## Secretos 🤫
 
 <details>
-    <summary>Imagen pixelada</summary>
-    <code> $ submit Rauch </code>
-</details>
-
-<details>
-    <summary>Correo</summary>
+    <summary>📷 Imagen pixelada</summary>
     <ul>
-        <li>
-            <code> $ mail 1 </code>
-        </li>
-        <li>
-            <code> $ cal </code>
-        </li>
-        <li>
-            <code> $ submit 2023-12-01 </code>
-        </li>
+        <code> $ submit Rauch </code>
     </ul>
 </details>
 
 <details>
-    <summary>Código Konami</summary>
+    <summary>📅 Correo</summary>
+    <ul>
+        <code> $ submit 2023-12-01 </code>
+    </ul>
+</details>
+
+<details>
+    <summary>🎮 Código Konami</summary>
     <p> Presiona: UP, UP, DOWN, DOWN, LEFT, RIGHT, LEFT, RIGHT, B, and A </p>
 </details>
 
 <details>
-    <summary>Adivinanza (Soy un caballero elegante...)</summary>
-    <li>
-            <code> $ submit HTML </code>
-        </li>
+    <summary>🤔 Adivinanza (Soy un caballero elegante...)</summary>
+    <ul>
+        <code> $ submit HTML </code>
+    </ul>
+</details>
+
+<details>
+    <summary>🧙‍♀️ Palabra más famosa del mundo</summary>
+        <ul>
+            <li>
+                <code> $ abracadabra </code>
+            </li>
+            <li>
+                <code> $ submit itsmagic </code>
+            </li>
+        </ul>
+</details>
+
+<details>
+    <summary>🎊 Prueba a lanzar confetti</summary>
+        <ul>
+            <code> $ confetti </code>
+        </ul>
 </details>
