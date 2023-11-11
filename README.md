@@ -9,6 +9,7 @@
 |                                    Img                                    | Reto |                                Título                                |           Descripción           |            Solución            |
 | :-----------------------------------------------------------------------: | :--: | :------------------------------------------------------------------: | :-----------------------------: | :----------------------------: |
 | <img src="./Assets/Challenges/challenge_01.png" width="80" height="80" /> | #01  | [Un espía está enviando mensajes encriptados](https://codember.dev/) | [Ver](./CHALLENGE_01/README.md) | [Ver](./CHALLENGE_01/index.js) |
+| <img src="./Assets/Challenges/challenge_02.png" width="80" height="80" /> | #02  |               [Mini compilador](https://codember.dev/)               | [Ver](./CHALLENGE_02/README.md) | [Ver](./CHALLENGE_02/index.js) |
 
 ## Puntuación 🙌
 
@@ -39,4 +40,11 @@
 <details>
     <summary>Código Konami</summary>
     <p> Presiona: UP, UP, DOWN, DOWN, LEFT, RIGHT, LEFT, RIGHT, B, and A </p>
+</details>
+
+<details>
+    <summary>Adivinanza (Soy un caballero elegante...)</summary>
+    <li>
+            <code> $ submit HTML </code>
+        </li>
 </details>
