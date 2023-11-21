@@ -61,3 +61,30 @@
             <code> $ confetti </code>
         </ul>
 </details>
+
+<details>
+    <summary>🙈 Ten cuidado, y no hagas un giro de barril...</summary>
+        <ul>
+            <code> $ do a barrel roll </code>
+        </ul>
+</details>
+
+<details>
+    <summary>🔐 Tsk, tsk. ¿Has hecho el último reto?...</summary>
+        <ul>
+            <li><code> $ sudo nljzuyfzb</code></li>
+            <li><code> $ cd private</code></li>
+            <li><code> $ cat ai.webp</code></li>
+            <li><code> $ submit Altman</code></li>
+        </ul>
+</details>
+
+<details>
+    <summary>👨‍🚀 El astronauta perdido...</summary>
+        <ul>
+            <li><code> $ sudo nljzuyfzb</code></li>
+            <li><code> $ cd private</code></li>
+            <li><code> $ cat log_mars_mission.txt</code></li>
+            <li><code> $ submit majortom</code></li>
+        </ul>
+</details>
