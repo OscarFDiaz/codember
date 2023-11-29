@@ -90,3 +90,12 @@
             <li><code> $ submit majortom</code></li>
         </ul>
 </details>
+
+<details>
+    <summary>🐮 Muuuuuuuuuu...</summary>
+        <ul>
+            <li><code> $ mail 4</code></li>
+            <li><code> $ cowsay</code></li>
+            <li><code> $ ping midu.dev</code></li>
+        </ul>
+</details>
