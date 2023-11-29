@@ -11,6 +11,7 @@
 | <img src="./Assets/Challenges/challenge_01.png" width="80" height="80" /> | #01  | [Un espía está enviando mensajes encriptados](https://codember.dev/) | [Ver](./CHALLENGE_01/README.md) | [Ver](./CHALLENGE_01/index.js) |
 | <img src="./Assets/Challenges/challenge_02.png" width="80" height="80" /> | #02  |               [Mini compilador](https://codember.dev/)               | [Ver](./CHALLENGE_02/README.md) | [Ver](./CHALLENGE_02/index.js) |
 | <img src="./Assets/Challenges/challenge_03.png" width="80" height="80" /> | #03  |                [Nos hackearon](https://codember.dev/)                | [Ver](./CHALLENGE_03/README.md) | [Ver](./CHALLENGE_03/index.js) |
+| <img src="./Assets/Challenges/challenge_04.png" width="80" height="80" /> | #04  |      [Hackers dañan sistema de archivos](https://codember.dev/)      | [Ver](./CHALLENGE_04/README.md) | [Ver](./CHALLENGE_04/index.js) |
 
 ## Puntuación 🙌
 
