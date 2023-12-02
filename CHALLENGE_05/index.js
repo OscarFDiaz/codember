@@ -1,5 +1,5 @@
 const fetchData = async () => {
-  const data = await fetch('https://codember.dev/data/files_quarantine.txt');
+  const data = await fetch('https://codember.dev/data/database_attacked.txt');
   const text = await data.text();
   const files = text.split('\n');
 
@@ -7,31 +7,34 @@ const fetchData = async () => {
 };
 
 const resolve = (files) => {
-  let real_files = [];
+  let invalids = [];
+  const alphanumeric = /^[a-zA-Z0-9]*$/;
+  const emailRegex = /^[^@]+@[^@]+.[a-zA-Z]*$/;
 
   files.forEach((element) => {
-    [cadena, uncheck] = element.split('-');
+    let idValid = true,
+      usernameValid = true,
+      emailValid = true;
 
-    let nueva_cadena = [];
-    let to_delete = [];
+    const [id, username, email, age, location] = element.split(',');
 
-    for (const letter of cadena) {
-      if (!nueva_cadena.includes(letter)) {
-        nueva_cadena.push(letter);
-      } else {
-        to_delete.push(letter);
-      }
-    }
+    // id existe y es alfanumérico
+    id ? (idValid = alphanumeric.test(id)) : (idValid = false);
 
-    let cadena_final = cadena.replace(new RegExp(to_delete.join('|'), 'g'), '');
+    // username existe y es alfanumérico
+    username ? (usernameValid = alphanumeric.test(username)) : (usernameValid = false);
 
-    if (cadena_final === uncheck) {
-      real_files.push(uncheck);
+    // email existe y es valido user@dominio.com
+    email ? (emailValid = emailRegex.test(email)) : (emailValid = false);
+
+    // Encuentra el primer carácter (número o letra) del username de cada usuario inválido.
+    if (!(idValid && usernameValid && emailValid && age && location)) {
+      invalids.push(username[0]);
     }
   });
 
-  console.log(real_files[32]);
-  return real_files[32];
+  // youh4v3beenpwnd
+  return invalids.join('');
 };
 
 fetchData();

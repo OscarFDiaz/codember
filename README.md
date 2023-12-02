@@ -12,6 +12,7 @@
 | <img src="./Assets/Challenges/challenge_02.png" width="80" height="80" /> | #02  |               [Mini compilador](https://codember.dev/)               | [Ver](./CHALLENGE_02/README.md) | [Ver](./CHALLENGE_02/index.js) |
 | <img src="./Assets/Challenges/challenge_03.png" width="80" height="80" /> | #03  |                [Nos hackearon](https://codember.dev/)                | [Ver](./CHALLENGE_03/README.md) | [Ver](./CHALLENGE_03/index.js) |
 | <img src="./Assets/Challenges/challenge_04.png" width="80" height="80" /> | #04  |      [Hackers dañan sistema de archivos](https://codember.dev/)      | [Ver](./CHALLENGE_04/README.md) | [Ver](./CHALLENGE_04/index.js) |
+| <img src="./Assets/Challenges/challenge_05.png" width="80" height="80" /> | #05  |              [El problema final](https://codember.dev/)              | [Ver](./CHALLENGE_05/README.md) | [Ver](./CHALLENGE_05/index.js) |
 
 ## Puntuación 🙌
 
@@ -97,5 +98,20 @@
             <li><code> $ mail 4</code></li>
             <li><code> $ cowsay</code></li>
             <li><code> $ ping midu.dev</code></li>
+        </ul>
+</details>
+
+<details>
+    <summary>🐛 Soy invisible pero puedo detener...</summary>
+        <ul>
+            <li><code> $ mail 5</code></li>
+            <li><code> $ submit bug</code></li>
+        </ul>
+</details>
+
+<details>
+    <summary>🎮 En 40 mintos...</summary>
+        <ul>
+            <li><code> $ play tetris</code></li>
         </ul>
 </details>
