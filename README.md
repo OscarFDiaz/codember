@@ -115,3 +115,12 @@
             <li><code> $ play tetris</code></li>
         </ul>
 </details>
+
+<details>
+    <summary>🎅 AdventJS...</summary>
+        <ul>
+            <li><code> $ cd private</code></li>
+            <li><code> $ cat final_log_mars_mission.txt</code></li>
+            <li><code> $ npm install adventjs</code></li>
+        </ul>
+</details>
